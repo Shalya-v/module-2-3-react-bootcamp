@@ -15,7 +15,7 @@ function Products() {
     
 
     useEffect(() => {
-        axios('https://fake-comic-store.herokuapp.com/comics').then(res => dispatch(productsFetched(res.data)));
+        axios('https://fake-comic-store-5eed32b7a81a.herokuapp.com/comics').then(res => dispatch(productsFetched(res.data)));
     }, [])
 
 
